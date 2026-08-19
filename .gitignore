@@ -1,0 +1,22 @@
+# Environment & Secrets
+.env
+*.env
+
+# Cache & Output
+cache/
+output/
+logs/
+scratch/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# System
+.DS_Store
+Thumbs.db

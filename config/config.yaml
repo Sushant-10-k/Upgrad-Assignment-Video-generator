@@ -1,0 +1,29 @@
+video:
+  width: 854
+  height: 480
+  fps: 30
+  aspect_ratio: "16:9"
+
+style:
+  background: "#0B1020"
+  primary: "#FFFFFF"
+  accent: "#4CC9F0"
+  secondary: "#F72585"
+  font: "arial.ttf"
+  font_size: 48
+
+voice:
+  provider: "piper"
+  model: "en_US-lessac-medium"
+
+renderer:
+  provider: "pil"
+
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0
+
+cache:
+  enabled: true
+  dir: "cache"

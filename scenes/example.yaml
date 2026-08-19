@@ -1,0 +1,51 @@
+video:
+  width: 854
+  height: 480
+  fps: 30
+  aspect_ratio: "16:9"
+
+style:
+  background: "#0B1020"
+  primary: "#FFFFFF"
+  accent: "#4CC9F0"
+  secondary: "#F72585"
+  font: "arial.ttf"
+  font_size: 48
+
+scenes:
+  - id: scene_001
+    narration:
+      text: "Computers represent color using numbers."
+    visuals:
+      - type: text
+        text: "COLOR IN NUMBERS"
+        animation: fade_in
+        trigger:
+          word: "Computers"
+      - type: icon
+        asset: "computer"
+        animation: scale_in
+        trigger:
+          word: "numbers"
+    transition:
+      type: fade
+      duration: 0.5
+
+  - id: scene_002
+    narration:
+      text: "Each channel can represent 2 to the power of 8 values."
+    visuals:
+      - type: equation
+        expression: "2^8"
+        animation: fade_in
+        trigger:
+          word: "power"
+      - type: number
+        value_expression: "2^8"
+        computed_value: 256
+        animation: counter
+        trigger:
+          word: "values"
+    transition:
+      type: cut
+      duration: 0.0

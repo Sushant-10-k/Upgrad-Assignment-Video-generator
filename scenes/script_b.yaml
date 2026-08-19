@@ -1,0 +1,264 @@
+video:
+  width: 854
+  height: 480
+  fps: 30
+  aspect_ratio: '16:9'
+style:
+  background: '#0B1020'
+  primary: '#FFFFFF'
+  accent: '#4CC9F0'
+  secondary: '#F72585'
+  font: arial.ttf
+  font_size: 48
+scenes:
+- id: scene_001
+  narration:
+    text: The water cycle is nature's way of continuously moving water around Earth.
+  visuals:
+  - type: text
+    text: THE WATER CYCLE IS NATURE'S WA
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: The
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_002
+  narration:
+    text: Water from oceans and lakes evaporates due to solar energy, rising as water
+      vapor into the atmosphere.
+  visuals:
+  - type: text
+    text: WATER FROM OCEANS AND LAKES EV
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: Water
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_003
+  narration:
+    text: As it rises, it cools and condenses to form clouds through a process called
+      condensation.
+  visuals:
+  - type: text
+    text: AS IT RISES, IT COOLS AND COND
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: As
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_004
+  narration:
+    text: When water droplets in clouds combine and grow heavy enough, precipitation
+      occurs as rain or snow.
+  visuals:
+  - type: text
+    text: 'WHEN WATER DROPLETS IN CLOUDS '
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: When
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_005
+  narration:
+    text: On the ground, water either flows as surface runoff into rivers and streams,
+      or infiltrates the soil.
+  visuals:
+  - type: text
+    text: ON THE GROUND, WATER EITHER FL
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: 'On'
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_006
+  narration:
+    text: From rivers, water eventually returns to the ocean, completing one full
+      cycle.
+  visuals:
+  - type: text
+    text: 'FROM RIVERS, WATER EVENTUALLY '
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: From
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_007
+  narration:
+    text: The average water molecule completes this cycle approximately every 9 days
+      in the atmosphere.
+  visuals:
+  - type: text
+    text: THE AVERAGE WATER MOLECULE COM
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: The
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_008
+  narration:
+    text: A single water molecule may stay in the ocean for up to 3,000 years before
+      evaporating.
+  visuals:
+  - type: text
+    text: A SINGLE WATER MOLECULE MAY ST
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: A
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_009
+  narration:
+    text: The water cycle drives weather patterns, distributes heat, and supports
+      all life on Earth.
+  visuals:
+  - type: text
+    text: THE WATER CYCLE DRIVES WEATHER
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: The
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
