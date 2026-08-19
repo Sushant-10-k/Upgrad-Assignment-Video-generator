@@ -13,10 +13,16 @@ style:
 scenes:
 - id: scene_001
   narration:
-    text: Computers represent color using numbers.
+    text: 'How Computers See Color
+
+
+      When you look at an apple, you see red.'
   visuals:
   - type: text
-    text: COMPUTERS REPRESENT COLOR USIN
+    text: 'HOW COMPUTERS SEE COLOR
+
+
+      WHEN '
     expression: null
     value_expression: null
     computed_value: null
@@ -30,7 +36,7 @@ scenes:
     radius: null
     animation: fade_in
     trigger:
-      word: Computers
+      word: How
       at_second: null
     labels: null
     values: null
@@ -40,10 +46,10 @@ scenes:
   duration: null
 - id: scene_002
   narration:
-    text: In RGB color models, red, green, and blue components are combined.
+    text: A computer, however, only understands numbers.
   visuals:
   - type: text
-    text: IN RGB COLOR MODELS, RED, GREE
+    text: A COMPUTER, HOWEVER, ONLY UNDE
     expression: null
     value_expression: null
     computed_value: null
@@ -57,7 +63,7 @@ scenes:
     radius: null
     animation: fade_in
     trigger:
-      word: In
+      word: A
       at_second: null
     labels: null
     values: null
@@ -67,10 +73,11 @@ scenes:
   duration: null
 - id: scene_003
   narration:
-    text: Each channel can represent 2 to the power of 8 values, which equals 256.
+    text: To bridge this gap between our colorful reality and a machine's mathematical
+      brain, we break images down into tiny, illuminated building blocks called pixels.
   visuals:
   - type: text
-    text: EACH CHANNEL CAN REPRESENT 2 T
+    text: TO BRIDGE THIS GAP BETWEEN OUR
     expression: null
     value_expression: null
     computed_value: null
@@ -84,7 +91,7 @@ scenes:
     radius: null
     animation: fade_in
     trigger:
-      word: Each
+      word: To
       at_second: null
     labels: null
     values: null
@@ -94,10 +101,11 @@ scenes:
   duration: null
 - id: scene_004
   narration:
-    text: The intensity range spans from 0 to 255.
+    text: How does a pixel know what color to be? It uses the RGB color model, which
+      mimics the biology of human vision.
   visuals:
   - type: text
-    text: THE INTENSITY RANGE SPANS FROM
+    text: HOW DOES A PIXEL KNOW WHAT COL
     expression: null
     value_expression: null
     computed_value: null
@@ -111,7 +119,173 @@ scenes:
     radius: null
     animation: fade_in
     trigger:
-      word: The
+      word: How
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_005
+  narration:
+    text: 'Every pixel contains three sub-pixels: Red, Green, and Blue.'
+  visuals:
+  - type: text
+    text: EVERY PIXEL CONTAINS THREE SUB
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: Every
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_006
+  narration:
+    text: By mixing different intensities of these three lights, screens can trick
+      your brain into seeing almost any color imaginable.
+  visuals:
+  - type: text
+    text: BY MIXING DIFFERENT INTENSITIE
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: By
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_007
+  narration:
+    text: To precisely measure the intensity of each sub-pixel, computers use a system
+      called bit depth.
+  visuals:
+  - type: text
+    text: TO PRECISELY MEASURE THE INTEN
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: To
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_008
+  narration:
+    text: Standard color imaging uses an 8-bit system for each of the three channels.
+  visuals:
+  - type: text
+    text: STANDARD COLOR IMAGING USES AN
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: Standard
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_009
+  narration:
+    text: Mathematically, this means two to the eighth power, resulting in 256 possible
+      combinations per channel.
+  visuals:
+  - type: text
+    text: MATHEMATICALLY, THIS MEANS TWO
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: Mathematically,
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_010
+  narration:
+    text: Because a computer starts counting at zero, this gives us a range from 0
+      to 255.
+  visuals:
+  - type: text
+    text: BECAUSE A COMPUTER STARTS COUN
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: Because
       at_second: null
     labels: null
     values: null
@@ -138,12 +312,67 @@ scenes:
     type: fade
     duration: 0.5
   duration: null
-- id: scene_005
+- id: scene_011
   narration:
-    text: Pure red is written as (255, 0, 0).
+    text: Zero means the light is completely off, and 255 means the light is at maximum
+      brightness.
   visuals:
   - type: text
-    text: PURE RED IS WRITTEN AS (255, 0
+    text: ZERO MEANS THE LIGHT IS COMPLE
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: Zero
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_012
+  narration:
+    text: These values act as mathematical coordinates for color.
+  visuals:
+  - type: text
+    text: THESE VALUES ACT AS MATHEMATIC
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: These
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_013
+  narration:
+    text: Pure red is (255, 0, 0).
+  visuals:
+  - type: text
+    text: PURE RED IS (255, 0, 0)
     expression: null
     value_expression: null
     computed_value: null
@@ -165,13 +394,12 @@ scenes:
     type: fade
     duration: 0.5
   duration: null
-- id: scene_006
+- id: scene_014
   narration:
-    text: Combining all three channels gives 256 times 256 times 256 total combinations,
-      resulting in 16,777,216 distinct colors.
+    text: If you turn all the lights off to (0, 0, 0), you get pitch black.
   visuals:
   - type: text
-    text: COMBINING ALL THREE CHANNELS G
+    text: IF YOU TURN ALL THE LIGHTS OFF
     expression: null
     value_expression: null
     computed_value: null
@@ -185,7 +413,228 @@ scenes:
     radius: null
     animation: fade_in
     trigger:
-      word: Combining
+      word: If
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_015
+  narration:
+    text: Turn them all the way up to 255, and you get a blinding white.
+  visuals:
+  - type: text
+    text: TURN THEM ALL THE WAY UP TO 25
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: Turn
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_016
+  narration:
+    text: To find the total number of colors a standard monitor can display, we multiply
+      the 256 levels of each channel together.
+  visuals:
+  - type: text
+    text: TO FIND THE TOTAL NUMBER OF CO
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: To
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_017
+  narration:
+    text: 256 times 256 times 256 equals 16,777,216.
+  visuals:
+  - type: text
+    text: 256 TIMES 256 TIMES 256 EQUALS
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: '256'
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_018
+  narration:
+    text: That is nearly 16.
+  visuals:
+  - type: text
+    text: THAT IS NEARLY 16
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: That
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_019
+  narration:
+    text: 8 million unique colors, with every single one mapped to a specific mathematical
+      coordinate.
+  visuals:
+  - type: text
+    text: '8 MILLION UNIQUE COLORS, WITH '
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: '8'
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_020
+  narration:
+    text: The next time you look at a stunning digital photograph, remember what you
+      are really seeing.
+  visuals:
+  - type: text
+    text: THE NEXT TIME YOU LOOK AT A ST
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: The
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_021
+  narration:
+    text: You aren't seeing the sunset.
+  visuals:
+  - type: text
+    text: YOU AREN'T SEEING THE SUNSET
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: You
+      at_second: null
+    labels: null
+    values: null
+  transition:
+    type: fade
+    duration: 0.5
+  duration: null
+- id: scene_022
+  narration:
+    text: You are seeing millions of microscopic lights, executing billions of mathematical
+      calculations every second, perfectly orchestrated to replicate the beauty of
+      the real world.
+  visuals:
+  - type: text
+    text: YOU ARE SEEING MILLIONS OF MIC
+    expression: null
+    value_expression: null
+    computed_value: null
+    asset: null
+    color: null
+    size: null
+    x: null
+    y: null
+    width: null
+    height: null
+    radius: null
+    animation: fade_in
+    trigger:
+      word: You
       at_second: null
     labels: null
     values: null
